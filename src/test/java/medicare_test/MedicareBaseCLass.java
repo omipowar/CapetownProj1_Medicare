@@ -18,7 +18,8 @@ public class MedicareBaseCLass {
 		
 	@BeforeMethod
 	public void SetUp() throws MalformedURLException {
-		        driver = new EdgeDriver();
+		      //  driver = new EdgeDriver();
+				driver = new ChromeDriver();
 				driver.get("http://localhost:8081/medicare/");
 				driver.manage().window().maximize();
 				driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));

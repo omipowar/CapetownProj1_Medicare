@@ -5,6 +5,7 @@
     <classes>
       <class name="medicare_test.MedicareLoginTest"/>
       <class name="medicare_test.MedicareSignupTest"/>
+       <class name="medicare_test.MedicareProductTest"/>
       	   </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

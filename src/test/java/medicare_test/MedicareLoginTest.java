@@ -1,6 +1,7 @@
 package medicare_test;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.SkipException;
@@ -27,6 +28,8 @@ public class MedicareLoginTest extends MedicareBaseCLass {
 			 */
 			WebElement LoginLink = driver.findElement(By.linkText("Login"));
 			LoginLink.click();
+				
+		
 			medicareLoginPage lp = new medicareLoginPage();
 			lp.LoginFunction("omi@gmail.com", "12345");
 

@@ -3,13 +3,13 @@
 <suite name="Failed suite [Surefire suite]" verbose="0">
   <test thread-count="5" name="Surefire test(failed)" verbose="0">
     <classes>
-      <class name="medicare_test.MedicareLoginTest$LoginTest">
+      <class name="medicare_test.MedicareSignupTest">
         <methods>
           <include name="SetUp"/>
+          <include name="LoginSucessTest"/>
           <include name="TearDown"/>
-          <include name="LoginFailureTest"/>
         </methods>
-      </class> <!-- medicare_test.MedicareLoginTest$LoginTest -->
+      </class> <!-- medicare_test.MedicareSignupTest -->
     </classes>
   </test> <!-- Surefire test(failed) -->
 </suite> <!-- Failed suite [Surefire suite] -->

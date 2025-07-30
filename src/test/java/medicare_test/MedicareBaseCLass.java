@@ -3,6 +3,7 @@ package medicare_test;
 import java.net.MalformedURLException;
 import java.time.Duration;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.edge.EdgeDriver;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.openqa.selenium.WebDriver;
@@ -17,7 +18,7 @@ public class MedicareBaseCLass {
 		
 	@BeforeMethod
 	public void SetUp() throws MalformedURLException {
-		        driver = new ChromeDriver();
+		        driver = new EdgeDriver();
 				driver.get("http://localhost:8081/medicare/");
 				driver.manage().window().maximize();
 				driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
@@ -26,7 +27,7 @@ public class MedicareBaseCLass {
 	
 	@AfterMethod
 	public void TearDown() {
-		//driver.quit();	
+		driver.quit();	
 	}
 	
 	

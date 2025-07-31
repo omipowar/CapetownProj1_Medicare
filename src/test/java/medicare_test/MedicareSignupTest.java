@@ -1,4 +1,5 @@
 package medicare_test;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
@@ -11,7 +12,7 @@ import medicare_test.MedicareBaseCLass;
 import medicare_test.MedicareListenerClass;
 
 @Listeners(MedicareListenerClass.class)
-public class MedicareSignupTest  extends MedicareBaseCLass {
+public class MedicareSignupTest extends MedicareBaseCLass {
 	@Test
 	public void LoginSucessTest() {
 		/*
@@ -25,13 +26,11 @@ public class MedicareSignupTest  extends MedicareBaseCLass {
 		 */
 		WebElement signupLink = driver.findElement(By.linkText("Sign Up"));
 		signupLink.click();
-		
+
 		medicareSignupPage lp = new medicareSignupPage();
-		lp.signupFunction("tanu","patil","tanu@gmail.com","9191919191","1111","1111","patnephata","pipmpri","pune", "580001","maharashtra", "INDIA");
-		
-		
+		lp.signupFunction("Mohit", "Agarwal", "mohitag@gmail.com", "9191919191", "1111", "1111", "yeshwantpur",
+				"hebbal", "bangalore", "5600111", "Karnataka", "INDIA");
 
 	}
 
-	
 }

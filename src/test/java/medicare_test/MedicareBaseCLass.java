@@ -15,23 +15,19 @@ import org.testng.annotations.BeforeTest;
 public class MedicareBaseCLass {
 
 	public static WebDriver driver;
-		
+
 	@BeforeMethod
 	public void SetUp() throws MalformedURLException {
-		      //  driver = new EdgeDriver();
-				driver = new ChromeDriver();
-				driver.get("http://localhost:8081/medicare/");
-				driver.manage().window().maximize();
-				driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
+		// driver = new EdgeDriver();
+		driver = new ChromeDriver();
+		driver.get("http://localhost:8081/medicare/");
+		driver.manage().window().maximize();
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
 	}
-	
-	
+
 	@AfterMethod
 	public void TearDown() {
-		driver.quit();	
+		// driver.quit();
 	}
-	
-	
-
 
 }

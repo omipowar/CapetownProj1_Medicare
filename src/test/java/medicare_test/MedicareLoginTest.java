@@ -14,39 +14,37 @@ import medicare_test.MedicareListenerClass;
 
 @Listeners(MedicareListenerClass.class)
 public class MedicareLoginTest extends MedicareBaseCLass {
-	
-			@Test(priority = 1)
-		public void LoginSucessTest() {
-			/*
-			 * String env = System.getenv("ENV");
-			 * 
-			 * if(env.equals("Dev")) {
-			 * 
-			 * throw new SkipException("Skipping the test case beacuse env is Dev");
-			 * 
-			 * }
-			 */
-			WebElement LoginLink = driver.findElement(By.linkText("Login"));
-			LoginLink.click();
-				
-		
-			medicareLoginPage lp = new medicareLoginPage();
-			lp.LoginFunction("omi@gmail.com", "12345");
 
-		}
+	@Test(priority = 1)
+	public void LoginSucessTest() {
+		/*
+		 * String env = System.getenv("ENV");
+		 * 
+		 * if(env.equals("Dev")) {
+		 * 
+		 * throw new SkipException("Skipping the test case beacuse env is Dev");
+		 * 
+		 * }
+		 */
+		WebElement LoginLink = driver.findElement(By.linkText("Login"));
+		LoginLink.click();
 
-		@Test(priority = 0)
-
-		public void LoginFailureTest() {
-			WebElement LoginLink = driver.findElement(By.linkText("Login"));
-			LoginLink.click();
-			medicareLoginPage lp = new medicareLoginPage();
-			lp.LoginFunction("omi@gmail.com", "11111");
-
-			WebElement ErrorMessage = driver.findElement(By.xpath("//div[@class='alert alert-danger fade in']"));
-			Assert.assertEquals(ErrorMessage.getText(), "Username and Password is invalid!");
-
-		}
+		medicareLoginPage lp = new medicareLoginPage();
+		lp.LoginFunction("omi@gmail.com", "12345");
 
 	}
 
+	@Test(priority = 0)
+
+	public void LoginFailureTest() {
+		WebElement LoginLink = driver.findElement(By.linkText("Login"));
+		LoginLink.click();
+		medicareLoginPage lp = new medicareLoginPage();
+		lp.LoginFunction("omi@gmail.com", "11111");
+
+		WebElement ErrorMessage = driver.findElement(By.xpath("//div[@class='alert alert-danger fade in']"));
+		Assert.assertEquals(ErrorMessage.getText(), "Username and Password is invalid!");
+
+	}
+
+}

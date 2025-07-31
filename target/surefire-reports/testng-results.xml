@@ -2,76 +2,76 @@
 <testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-07-30T11:25:20Z" name="Surefire suite" finished-at="2025-07-30T11:28:36Z" duration-ms="196354">
+  <suite started-at="2025-07-30T20:38:11 IST" name="medicare" finished-at="2025-07-30T20:40:45 IST" duration-ms="153884">
     <groups>
     </groups>
-    <test started-at="2025-07-30T11:25:20Z" name="Surefire test" finished-at="2025-07-30T11:28:36Z" duration-ms="196354">
+    <test started-at="2025-07-30T20:38:11 IST" name="MedicareTest" finished-at="2025-07-30T20:40:45 IST" duration-ms="153884">
       <class name="medicare_test.MedicareProductTest">
-        <test-method is-config="true" signature="SetUp()[pri:0, instance:medicare_test.MedicareProductTest@78a2da20]" started-at="2025-07-30T11:26:06Z" name="SetUp" finished-at="2025-07-30T11:26:20Z" duration-ms="13846" status="PASS">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:medicare_test.MedicareProductTest@3bd40a57]" started-at="2025-07-30T20:39:25 IST" name="SetUp" finished-at="2025-07-30T20:39:37 IST" duration-ms="12077" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetUp -->
-        <test-method signature="multipleCartValue()[pri:0, instance:medicare_test.MedicareProductTest@78a2da20]" started-at="2025-07-30T11:26:20Z" name="multipleCartValue" finished-at="2025-07-30T11:26:43Z" duration-ms="22611" status="PASS">
+        <test-method signature="multipleCartValue()[pri:0, instance:medicare_test.MedicareProductTest@3bd40a57]" started-at="2025-07-30T20:39:37 IST" name="multipleCartValue" finished-at="2025-07-30T20:40:03 IST" duration-ms="26688" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- multipleCartValue -->
-        <test-method is-config="true" signature="TearDown()[pri:0, instance:medicare_test.MedicareProductTest@78a2da20]" started-at="2025-07-30T11:26:43Z" name="TearDown" finished-at="2025-07-30T11:26:46Z" duration-ms="3611" status="PASS">
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:medicare_test.MedicareProductTest@3bd40a57]" started-at="2025-07-30T20:40:03 IST" name="TearDown" finished-at="2025-07-30T20:40:09 IST" duration-ms="5180" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
-        <test-method is-config="true" signature="SetUp()[pri:0, instance:medicare_test.MedicareProductTest@78a2da20]" started-at="2025-07-30T11:28:04Z" name="SetUp" finished-at="2025-07-30T11:28:18Z" duration-ms="14372" status="PASS">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:medicare_test.MedicareProductTest@3bd40a57]" started-at="2025-07-30T20:40:09 IST" name="SetUp" finished-at="2025-07-30T20:40:22 IST" duration-ms="13112" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetUp -->
-        <test-method signature="AddToCartTest()[pri:1, instance:medicare_test.MedicareProductTest@78a2da20]" started-at="2025-07-30T11:28:18Z" name="AddToCartTest" finished-at="2025-07-30T11:28:34Z" duration-ms="15373" status="PASS">
+        <test-method signature="AddToCartTest()[pri:1, instance:medicare_test.MedicareProductTest@3bd40a57]" started-at="2025-07-30T20:40:22 IST" name="AddToCartTest" finished-at="2025-07-30T20:40:40 IST" duration-ms="18782" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AddToCartTest -->
-        <test-method is-config="true" signature="TearDown()[pri:0, instance:medicare_test.MedicareProductTest@78a2da20]" started-at="2025-07-30T11:28:34Z" name="TearDown" finished-at="2025-07-30T11:28:36Z" duration-ms="2372" status="PASS">
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:medicare_test.MedicareProductTest@3bd40a57]" started-at="2025-07-30T20:40:40 IST" name="TearDown" finished-at="2025-07-30T20:40:45 IST" duration-ms="4512" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
       </class> <!-- medicare_test.MedicareProductTest -->
       <class name="medicare_test.MedicareSignupTest">
-        <test-method is-config="true" signature="SetUp()[pri:0, instance:medicare_test.MedicareSignupTest@dd3b207]" started-at="2025-07-30T11:26:46Z" name="SetUp" finished-at="2025-07-30T11:27:08Z" duration-ms="21478" status="PASS">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:medicare_test.MedicareSignupTest@1a0dcaa]" started-at="2025-07-30T20:39:02 IST" name="SetUp" finished-at="2025-07-30T20:39:11 IST" duration-ms="8022" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetUp -->
-        <test-method signature="LoginSucessTest()[pri:0, instance:medicare_test.MedicareSignupTest@dd3b207]" started-at="2025-07-30T11:27:08Z" name="LoginSucessTest" finished-at="2025-07-30T11:27:27Z" duration-ms="18986" status="PASS">
+        <test-method signature="LoginSucessTest()[pri:0, instance:medicare_test.MedicareSignupTest@1a0dcaa]" started-at="2025-07-30T20:39:11 IST" name="LoginSucessTest" finished-at="2025-07-30T20:39:23 IST" duration-ms="12153" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginSucessTest -->
-        <test-method is-config="true" signature="TearDown()[pri:0, instance:medicare_test.MedicareSignupTest@dd3b207]" started-at="2025-07-30T11:27:27Z" name="TearDown" finished-at="2025-07-30T11:27:32Z" duration-ms="5090" status="PASS">
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:medicare_test.MedicareSignupTest@1a0dcaa]" started-at="2025-07-30T20:39:23 IST" name="TearDown" finished-at="2025-07-30T20:39:25 IST" duration-ms="1960" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
       </class> <!-- medicare_test.MedicareSignupTest -->
       <class name="medicare_test.MedicareLoginTest">
-        <test-method is-config="true" signature="SetUp()[pri:0, instance:medicare_test.MedicareLoginTest@23a5fd2]" started-at="2025-07-30T11:25:20Z" name="SetUp" finished-at="2025-07-30T11:25:50Z" duration-ms="30169" status="PASS">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:medicare_test.MedicareLoginTest@19d37183]" started-at="2025-07-30T20:38:11 IST" name="SetUp" finished-at="2025-07-30T20:38:35 IST" duration-ms="23304" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetUp -->
-        <test-method signature="LoginFailureTest()[pri:0, instance:medicare_test.MedicareLoginTest@23a5fd2]" started-at="2025-07-30T11:25:50Z" name="LoginFailureTest" finished-at="2025-07-30T11:26:03Z" duration-ms="13371" status="PASS">
+        <test-method signature="LoginFailureTest()[pri:0, instance:medicare_test.MedicareLoginTest@19d37183]" started-at="2025-07-30T20:38:35 IST" name="LoginFailureTest" finished-at="2025-07-30T20:38:45 IST" duration-ms="10690" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginFailureTest -->
-        <test-method is-config="true" signature="TearDown()[pri:0, instance:medicare_test.MedicareLoginTest@23a5fd2]" started-at="2025-07-30T11:26:03Z" name="TearDown" finished-at="2025-07-30T11:26:06Z" duration-ms="2582" status="PASS">
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:medicare_test.MedicareLoginTest@19d37183]" started-at="2025-07-30T20:38:45 IST" name="TearDown" finished-at="2025-07-30T20:38:47 IST" duration-ms="1334" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
-        <test-method is-config="true" signature="SetUp()[pri:0, instance:medicare_test.MedicareLoginTest@23a5fd2]" started-at="2025-07-30T11:27:32Z" name="SetUp" finished-at="2025-07-30T11:27:52Z" duration-ms="19932" status="PASS">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:medicare_test.MedicareLoginTest@19d37183]" started-at="2025-07-30T20:38:47 IST" name="SetUp" finished-at="2025-07-30T20:38:56 IST" duration-ms="9326" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetUp -->
-        <test-method signature="LoginSucessTest()[pri:1, instance:medicare_test.MedicareLoginTest@23a5fd2]" started-at="2025-07-30T11:27:52Z" name="LoginSucessTest" finished-at="2025-07-30T11:28:01Z" duration-ms="9835" status="PASS">
+        <test-method signature="LoginSucessTest()[pri:1, instance:medicare_test.MedicareLoginTest@19d37183]" started-at="2025-07-30T20:38:56 IST" name="LoginSucessTest" finished-at="2025-07-30T20:39:01 IST" duration-ms="4846" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginSucessTest -->
-        <test-method is-config="true" signature="TearDown()[pri:0, instance:medicare_test.MedicareLoginTest@23a5fd2]" started-at="2025-07-30T11:28:01Z" name="TearDown" finished-at="2025-07-30T11:28:04Z" duration-ms="2545" status="PASS">
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:medicare_test.MedicareLoginTest@19d37183]" started-at="2025-07-30T20:39:01 IST" name="TearDown" finished-at="2025-07-30T20:39:02 IST" duration-ms="1738" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
       </class> <!-- medicare_test.MedicareLoginTest -->
-    </test> <!-- Surefire test -->
-  </suite> <!-- Surefire suite -->
+    </test> <!-- MedicareTest -->
+  </suite> <!-- medicare -->
 </testng-results>

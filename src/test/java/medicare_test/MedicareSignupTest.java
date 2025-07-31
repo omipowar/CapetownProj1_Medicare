@@ -28,7 +28,7 @@ public class MedicareSignupTest extends MedicareBaseCLass {
 		signupLink.click();
 
 		medicareSignupPage lp = new medicareSignupPage();
-		lp.signupFunction("Mohit", "Agarwal", "mohitag@gmail.com", "9191919191", "1111", "1111", "yeshwantpur",
+		lp.signupFunction("mohini", "Agarwal", "mohini@gmail.com", "9191919191", "1111", "1111", "yeshwantpur",
 				"hebbal", "bangalore", "5600111", "Karnataka", "INDIA");
 
 	}
